@@ -2,25 +2,28 @@
 
 ## Quais são os passos iniciais para uma análise de dados eficiente?
 
-Para qualquer análise que formos fazer, é essencial que esteja bem definido o objetivo dessa analise, para você não se perder nos dados. A segunda parte que também é fundamental, é a limpeza e organização dos dados pois nem sempre os dados coletados estão organizados *(muitas das vezes não vão estar rsrs).* É **SEMPRE** importante saber de onde são os seus dados, como eles foram coletados, e se essa forma com que foram coletados, irão enviesar sua analise.
+Para qualquer análise que formos fazer, é essencial que esteja bem definido o objetivo dessa análise para você não se perder nos dados.
+A segunda parte, que também é fundamental, é a limpeza e organização dos dados, pois nem sempre os dados coletados estão organizados *(em geral, não vão estar rsrs)*. É **SEMPRE** importante saber a origem dos seus dados, como eles foram coletados, e se a metodologia utilizada irá enviesar sua análise.*
 
-Sabendo qual problema você quer entender e com os dados organizados, basta explorar e criar visualizações para ajudar no seu entendimento e no das outras pessoas que vão precisar desses dados.
+Sabendo qual problema você quer entender e com os dados organizados, basta explorar e criar visualizações para ajudar no seu entendimento e no das outras pessoas que irão precisar desses dados.
 
-Dado o cenário abaixo, escreva um algoritmo (passo a passo em alto nível) que descreve o processo que você colocaria em prática. 
+### Dado o cenário abaixo, escreva um algoritmo (passo a passo em alto nível) que descreve o processo que você colocaria em prática. 
 
 > Um supermercado gostaria de recomendar produtos aos seus clientes de acordo com suas compras passadas. É possível, por exemplo, prever situações como a saúde do cliente (compras de mais remédios), se o cliente tem um pet (compras de produtos veterinários), mudança de casa (compras de móveis), entre outras situações. Além disso, o sistema deve tentar entender quando uma compra passada não agradou o usuário e evitar continuar recomendando produtos como aquele. Assumindo que você tem acesso ao banco de dados e há informações o suficiente, qual seria o passo a passo (etapas em alto nível) para fazer um tipo de análise como essa?
 
-Para esse case, precisamos segmentar nossos clientes, precisamos saber em que grupo eles se encaixam para conseguirmos recomendar algo. 
+Para esse case, precisamos segmentar nossos clientes e saber em que grupo eles se encaixam para conseguirmos recomendar algo.
 
-Para fazer isso, eu começaria extraindo os dados do banco para um lugar que eu tenha mais liberdade de manuseio. Faria todo o processo de organização e limpeza dos dados, conheceria meus dados, iria conferir se eu teria os dados que preciso para fazer essa segmentação e com essas etapas de análise corretas, podemos começar a segmentar nossos clientes. 
+Para fazer isso, eu começaria extraindo os dados do banco para um lugar que eu tenha mais liberdade de manipulação.*
+Faria todo o processo de organização e limpeza dos dados a fim de conhecê-los. Também iria conferir se eu teria os dados que preciso para fazer essa segmentação e com essas etapas de análise corretas, podemos começar a segmentar nossos clientes.
 
-No case acima, eu usaria um algoritmo de clusterização para definir grupos de clientes, e recomendar o que outros clientes daquele mesmo grupo estão comprando. No caso de uma compra que não foi boa, precisamos de uma forma do cliente responder se aquela compra foi boa ou não, e se fosse possível, por que não foi boa? Tendo isso conseguiríamos decidir se aquele produto em especifico não foi bom, ou se é aquele tipo de produto que não é bom para o cliente, a depender podemos recomendar outros produtos do mesmo tipo, e em outros casos podemos simplesmente não recomendar mais produtos igual a este.   
+No case acima, eu usaria um algoritmo de clusterização para definir grupos de clientes. Assim como recomendar o que outros clientes daquele mesmo grupo estão comprando.
+No caso de uma compra que não foi boa, precisamos de uma forma do cliente responder se aquela compra foi boa ou não, e se fosse possível, o motivo pelo qual não foi boa. Tendo isso, conseguiríamos decidir se aquele produto em especifico não foi bom ou se é aquele tipo de produto que não é bom para o cliente. A depender, podemos recomendar outros produtos do mesmo tipo, e em outros casos podemos simplesmente não recomendar mais produtos igual a este.
 
 ## Quais são os passos essenciais para pré processar os dados antes de aplicar algoritmos de Machine Learning?
 
-Os passos são os mesmos de uma boa analise de dados, e mais algumas coisas. Precisamos definir quais serão as entradas do nosso algoritmo, para isso precisamos entender como essas entradas se relacionam, se existem correlações (positivas e negativas), e também temos uma etapa muito importante que é: decidir quais serão os dados de treino.
+Os passos incluem uma boa analise de dados e mais algumas coisas. Precisamos definir quais serão as entradas do nosso algoritmo, para isso, precisamos entender como essas entradas se relacionam com a saída, se existem correlações (positivas e negativas), e também temos uma etapa muito importante que é decidir quais serão os dados de treino.
 
-Além disso enfatizo bastante a questão de saber de onde os dados vieram, por que, temos muitos problemas de algoritmos enviesados, então é muito importante entender quais são os vieses dos seus dados e como evitar que seu algoritmo seja enviesado no treinamento. 
+Além disso, enfatizo bastante a questão de saber a origem dos dados, pois temos muitos problemas de algoritmos enviesados, então é muito importante entender quais são os vieses dos seus dados e como evitar que seu algoritmo seja enviesado no treinamento.
 
 ## O que são outliers/anomalias?
 
@@ -30,7 +33,7 @@ Vamos usar de exemplo o desafio acima, estamos tentando entender o comportamento
 
 Um belo dia, um cliente que tinha o perfil de não consumir álcool, foi ao supermercado e comprou 3 caixas de cerveja e 1 garrada de Whisky.
 
-Bom, é um comportamento suspeito, já que é a primeira vez que isso acontece em um intervalo grande de tempo. Podemos nos perguntar.. Foi realmente esse cliente que fez a compra ou alguém comprou com o cadastro dele? É uma festa que nosso cliente ficou encarregado de comprar as bebidas, mesmo não bebendo ? Ou ele agora começou a beber? (*coisas que só saberíamos se continuássemos a observar o comportamento*)
+Bom, é um comportamento suspeito, já que é a primeira vez que isso acontece em um intervalo grande de tempo. Podemos nos perguntar: Foi realmente esse cliente que fez a compra ou alguém comprou com o cadastro dele? É uma festa que nosso cliente ficou encarregado de comprar as bebidas, mesmo não bebendo? Ou ele agora começou a beber? Coisas que só saberíamos se continuássemos a observar o comportamento. *Coisas que só saberíamos se continuássemos a observar o comportamento*
 
 Percebam que esse comportamento não explica o comportamento usual do cliente, que é não comprar bebidas alcoólicas, logo, pode ser considerado um outlier.
 
@@ -48,7 +51,7 @@ Olhando para esse gráfico apenas, podemos considerar que outliers são os ponto
 
 Nesse caso vemos a média como 98.223k ao ano, enquanto que o maior salário é de 179,726K.
 
-É uma grande diferença porém temos que analisar outros fatores (qual a profissão dessa pessoa, pegar um boxplot só dessa profissão, onde essa pessoa mora e etc..) para determinar se é ou não um outlier.
+É uma grande diferença, porém temos que analisar outros fatores (qual a profissão dessa pessoa, realizar um boxplot só dessa profissão, onde essa pessoa mora etc) para determinar se é ou não um outlier.
 
 Agora que sabemos sobre o boxplot, conseguimos pensar em retirar eles da amostra *(com sabedoria rsrs).*
 
