@@ -3,7 +3,7 @@
 ## Quais são os passos iniciais para uma análise de dados eficiente?
 
 Para qualquer análise que formos fazer, é essencial que esteja bem definido o objetivo dessa análise para você não se perder nos dados.
-A segunda parte, que também é fundamental, é a limpeza e organização dos dados, pois nem sempre os dados coletados estão organizados *(em geral, não vão estar rsrs)*. É **SEMPRE** importante saber a origem dos seus dados, como eles foram coletados, e se a metodologia utilizada irá enviesar sua análise.*
+A segunda parte, que também é fundamental, é a limpeza e organização dos dados, pois nem sempre os dados coletados estão organizados *(em geral, não vão estar rsrs)*. É **SEMPRE** importante saber a origem dos seus dados, como eles foram coletados, e se a metodologia utilizada irá enviesar sua análise.
 
 Sabendo qual problema você quer entender e com os dados organizados, basta explorar e criar visualizações para ajudar no seu entendimento e no das outras pessoas que irão precisar desses dados.
 
@@ -13,7 +13,7 @@ Sabendo qual problema você quer entender e com os dados organizados, basta expl
 
 Para esse case, precisamos segmentar nossos clientes e saber em que grupo eles se encaixam para conseguirmos recomendar algo.
 
-Para fazer isso, eu começaria extraindo os dados do banco para um lugar que eu tenha mais liberdade de manipulação.*
+Para fazer isso, eu começaria extraindo os dados do banco para um lugar que eu tenha mais liberdade de manipulação.
 Faria todo o processo de organização e limpeza dos dados a fim de conhecê-los. Também iria conferir se eu teria os dados que preciso para fazer essa segmentação e com essas etapas de análise corretas, podemos começar a segmentar nossos clientes.
 
 No case acima, eu usaria um algoritmo de clusterização para definir grupos de clientes. Assim como recomendar o que outros clientes daquele mesmo grupo estão comprando.
