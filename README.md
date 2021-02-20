@@ -59,18 +59,19 @@ Agora que sabemos sobre o boxplot, conseguimos pensar em retirar eles da amostra
 
 Vamos de regressão linear,
 
-O algoritmo de regressão linear é um algoritmo supervisionado, que se baseia na correlação entre X e Y , por exemplo, queremos prever quanto alguém gasta com refrigerantes, e analisando os dados, identificamos uma correlação com a variável "Gastos com pizza", dado isso meu X é igual a "Gastos com pizza" e Y é igual a "Gastos com refrigerante".  
+O algoritmo de regressão linear é um algoritmo supervisionado que se baseia na correlação entre X e Y, por exemplo, queremos prever quanto alguém gasta com refrigerantes. Analisando os dados, identificamos uma correlação com a variável "Gastos com pizza", dado isso, meu X é igual a "Gastos com pizza" e Y é igual a "Gastos com refrigerante".
 
 *Obs: é muito importante ficar atento sobre as escolhas de variáveis por que nem sempre essa relação é de causa e efeito.*
 
-O que o algoritmo vai fazer, é traçar uma linha que mais se encaixa no meu eixo X e Y, achando um coeficiente de angulação da reta, calculando os desvios e dando preferencia sempre a menores desvios. 
+O que o algoritmo vai fazer, é traçar uma linha que mais se encaixa no meu eixo X e Y, achando um coeficiente de angulação da reta, calculando os desvios e dando sempre preferência a menores desvios.
 
-Temos algumas métricas para medir a acurácia do modelo, que penalizam levando em consideração os desvios da reta, com isso conseguimos medir se nosso modelo está muito ruim, bom, com overfitting e etc.
+Temos algumas métricas para medir a acurácia do modelo, que penalizam levando em consideração os desvios da reta, e com isso conseguimos medir se nosso modelo está muito ruim, bom, com overfitting, etc.
+
 
 ### Considerações finais 😌
 
-Aprendi demais com esse teste, tive que revisitar alguns conceitos, pesquisar, achar melhores maneiras de me expressar, e no final das contas nenhum tempo estudando é perdido.
+Aprendi demais com esse teste, tive que revisitar alguns conceitos, pesquisar, achar melhores maneiras de me expressar, e no final das contas nenhum tempo estudando é tempo perdido.
 
- O caminho é longo, tenho muito que aprender, e estou ciente do quão longo é caminho rsrs
+O caminho é longo, tenho muito que aprender, e estou ciente do quão longo é o caminho rsrs.
 
 Obrigada a você que leu até aqui! :D
