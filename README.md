@@ -13,8 +13,7 @@ Sabendo qual problema você quer entender e com os dados organizados, basta expl
 
 Para esse case, precisamos segmentar nossos clientes e saber em que grupo eles se encaixam para conseguirmos recomendar algo.
 
-Para fazer isso, eu começaria extraindo os dados do banco para um lugar que eu tenha mais liberdade de manipulação.
-Faria todo o processo de organização e limpeza dos dados a fim de conhecê-los. Também iria conferir se eu teria os dados que preciso para fazer essa segmentação e com essas etapas de análise corretas, podemos começar a segmentar nossos clientes.
+Para fazer isso, todo o processo de organização e limpeza dos dados a fim de conhecê-los. Também iria conferir se eu teria os dados que preciso para fazer essa segmentação, faria a análise de quais seriam nossas entradas no algoritmo e com isso definido, podemos começar a segmentar nossos clientes.
 
 No case acima, eu usaria um algoritmo de clusterização para definir grupos de clientes. Assim como recomendar o que outros clientes daquele mesmo grupo estão comprando.
 No caso de uma compra que não foi boa, precisamos de uma forma do cliente responder se aquela compra foi boa ou não, e se fosse possível, o motivo pelo qual não foi boa. Tendo isso, conseguiríamos decidir se aquele produto em especifico não foi bom ou se é aquele tipo de produto que não é bom para o cliente. A depender, podemos recomendar outros produtos do mesmo tipo, e em outros casos podemos simplesmente não recomendar mais produtos igual a este.
