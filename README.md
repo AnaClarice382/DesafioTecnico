@@ -1,4 +1,10 @@
-# Desafio técnico - Análise de dados 😊
+# Desafio Técnico
+
+Caso o notebook não abra, acesse pelo Google Colab https://colab.research.google.com/drive/1gUTKsqOviq-ZbQyInguDpgYlQQaxmfdH?usp=sharing
+<br>
+Basta ir em "Ambiente de execução" e depois "Executar tudo", você pode realizar edições nas entradas a vontade :D
+
+# Desafio - Análise de dados 😊
 
 ## Quais são os passos iniciais para uma análise de dados eficiente?
 
