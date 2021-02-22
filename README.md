@@ -58,7 +58,7 @@ Nesse caso vemos a média como 98.223k ao ano, enquanto que o maior salário é 
 
 É uma grande diferença, porém temos que analisar outros fatores (qual a profissão dessa pessoa, realizar um boxplot só dessa profissão, onde essa pessoa mora etc) para determinar se é ou não um outlier.
 
-Agora que sabemos sobre o boxplot, conseguimos pensar em retirar eles da amostra *(com sabedoria rsrs).*
+Agora que sabemos sobre o boxplot, conseguimos pensar em retirar eles dos nossos dados. *(com sabedoria rsrs)*
 
 ## Descreva em alto nível um (qualquer) algoritmo de Machine Learning que você tenha conhecimento.
 
