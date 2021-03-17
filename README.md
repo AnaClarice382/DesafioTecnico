@@ -46,11 +46,11 @@ Percebam que esse comportamento não explica o comportamento usual do cliente, q
 
 Antes de qualquer coisa, precisamos entender o que são boxplots. 
 
-Os gráficos boxplots mostram como está a distribuição dos nossos dados, inclusive onde está a média. 
+Os gráficos boxplots mostram como está a distribuição dos nossos dados, inclusive onde está a mediana. 
 
-Recentemente, eu fiz uma análise que sobre diferença salarial entre homens e mulheres, e o gráfico abaixo é um boxplot dessa análise. O gráfico é dividido em quartis, cada quartil representa 25% dos dados, e existe uma divisão dos dados abaixo da média e acima da média. 
+Recentemente, eu fiz uma análise que sobre diferença salarial entre homens e mulheres, e o gráfico abaixo é um boxplot dessa análise. O gráfico é dividido em quartis, cada quartil representa 25% dos dados, e existe uma divisão dos dados abaixo da mediana e acima da mediana. 
 
-Olhando para esse gráfico apenas, podemos considerar que outliers são os pontos que estão fora dos quartis, em geral pontos que se distanciam muito da média.  
+Olhando para esse gráfico apenas, podemos considerar que outliers são os pontos que estão fora dos quartis, em geral pontos que se distanciam muito da mediana.  
 
 ![boxplot.png](boxplot.png)
 
